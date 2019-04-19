@@ -34,5 +34,7 @@ public class MyUtilsTest {
   @Test
   public void testMul() {
 	  Assert.assertEquals(6, myUtils.mul(3, 2), 0.00);
+	  
+	  Assert.assertEquals(2, myUtils.mul(1, 1), 0.00);
   }
 }

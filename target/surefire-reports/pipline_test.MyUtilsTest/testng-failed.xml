@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [pipline_test.MyUtilsTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="pipline_test.MyUtilsTest">
+        <methods>
+          <include name="testMul"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- pipline_test.MyUtilsTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [pipline_test.MyUtilsTest] -->
