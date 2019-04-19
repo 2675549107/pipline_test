@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-	junit 'src/test/java/TestNG.xml'
+	junit '**/target/surefire-reports/TEST-pipline_test.MyUtilsTest.xml'
             }
         }
         stage('Deploy') {
