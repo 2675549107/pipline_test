@@ -10,6 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+	junit 'src/test/java/TestNG.xml'
             }
         }
         stage('Deploy') {
