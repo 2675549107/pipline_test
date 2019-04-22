@@ -5,6 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                bat 'git remote add branch1 https://github.com/2675549107/pipline_test2.git'
+                bat 'git fetch branch1'
+                bat 'git merge branch1/master'
+                bat 'git push branch1 master'
             }
         }
         stage('Test') {
